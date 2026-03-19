@@ -1,0 +1,44 @@
+body {
+      margin: 30px;
+    }
+
+    div {
+      padding: 10px 0;
+    }
+
+    fieldset#starType {
+      border: 0;
+      padding: 0;
+    }
+
+    input[type="radio"] {
+      display: none;
+    }
+
+    .starOption {
+      margin: 0 10px;
+      display: inline-block;
+    }
+    .starOption label {
+        display: block;
+        text-align: center;
+        padding: 10px; 
+    }
+
+    .starOption input:checked ~ label {
+        outline: 2px solid black;
+
+    }
+
+    .starOption svg {
+        display: block;
+        margin: auto;
+    }
+
+    .colorInput {
+      display: block;
+    }
+
+    #outlineColorDiv {
+      display: none;
+    }
